@@ -13,3 +13,4 @@
       Relay COM ── PWR_SW(1)
       Relay NO  ── PWR_SW(2)
  
+<img width="620" height="240" alt="image" src="https://github.com/user-attachments/assets/66abdec4-4761-4774-b316-7e6b0e3c5075" />
