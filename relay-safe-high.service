@@ -1,0 +1,12 @@
+[Unit]
+Description=Force relay GPIO HIGH at boot (safe)
+After=local-fs.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /usr/local/bin/relay_safe_high.py
+Restart=always
+RestartSec=1
+
+[Install]
+WantedBy=multi-user.target
