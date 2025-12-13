@@ -4,7 +4,7 @@ As Wake-On-LAN doesn't work properly after Windows 11 is updated, I decided to u
 
 ## Requirements
 
-- General relay module suing SRD-05VDC-SL-C (I bought it in Ali)
+- General relay module using SRD-05VDC-SL-C (I bought it in Ali)
 - Raspberry PI
 
 ## Connection
