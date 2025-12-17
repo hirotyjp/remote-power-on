@@ -1,13 +1,16 @@
 # Turn on PC using Relay
 
-As Wake-On-LAN doesn't work properly after Windows 11 is updated, I decided to use physical power on method using a relay module and PI.
+As Wake-On-LAN doesn't work properly after my Windows 11 PC has been updated by Windows update, I stopped struggling changing NIC and WoL configuration. 
+After that I decided to use physical power on method using a relay module and PI. This method is really much more reliable than WoL.
+
+<img width="663" height="472" alt="image" src="https://github.com/user-attachments/assets/467d92f9-1cbc-447b-9333-2510c239df92" />
 
 ## Requirements
 
 - General relay module using SRD-05VDC-SL-C (I bought it in Ali)
 - Raspberry PI
 
-## Connection
+## Connections
 
       Raspberry Pi 3.3V -- VCC
       Raspberry Pi GND  -- GND
@@ -42,3 +45,8 @@ Image:
       raspi-gpio get 17
       > GPIO 17: level=1 fsel=1 func=OUTPUT
       
+## Usage
+
+      # Just run
+      ./power-on.py
+
