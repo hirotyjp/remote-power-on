@@ -1,7 +1,7 @@
 # Turn on PC using Relay
 
-As Wake-On-LAN doesn't work properly after my Windows 11 PC has been updated by Windows update, I stopped struggling changing NIC and WoL configuration. 
-After that I decided to use physical power on method using a relay module and PI. This method is really much more reliable than WoL.
+Wake-On-LAN had been working well in my PC previously, but it suddenly didn't work properly after Windows update updated something. I was struggling to find out the root cause with changing NIC and WoL configuration, but finally I gave up. 
+Now I decided to use physical power on method using a relay module and PI. I can say this way is more reliable than WoL.
 
 <img width="663" height="472" alt="image" src="https://github.com/user-attachments/assets/467d92f9-1cbc-447b-9333-2510c239df92" />
 
